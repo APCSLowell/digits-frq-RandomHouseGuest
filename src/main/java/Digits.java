@@ -11,7 +11,7 @@ public class Digits
 		if(num == 0){
 			digitList.add(0);
 		}
-		int placeholder = num;
+		int count = num;
 		while(count > 0){
 			digitList.add(0, count%10);
 			count/=10;
